@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ademide Birthday RPS </title>
+   <link rel="stylesheet" href="rps.css" />
+</head>
+<body>
+    <section class="gallery">
+        <h2> Memories </h2>
+        <div class="slideshow-container">
+            <img id="slideImage"
+            src="images/photo1.jpg" alt="Memory Slide">
+            <p id="slideCaption"> Childhood memories together </p>
+
+            <button id="prevBtn"> &lt Prev </button>
+            <button id="nextBtn"> Next &gt </button>
+            
+        </div>
+    </section>
+    <h1> Rock Paper Scissors Utimate</h1>
+    <p> First to 3 wins </p>
+
+    <div class="scoreboard">
+        You <span id="userScore"> 0 </span> : <span id="computerScore"> 0 </span> Computer
+    </div>
+    <div class="choices">
+        <button data-choice="rock"> rock </button>
+        <button data-choice="paper"> paper </button>
+        <button data-choice="scissors"> scissors </button>
+    </div>
+    <div id="result">Pick a move to start!</div>
+    <button class="reset" id="resetBtn" style="display: none;">Play Again</button>
+
+    <button id="exportBtn"> Export CSV </button>
+    <button id="clearDataBtn">Clear Saved Data </button>
+
+    <div class="dashboard">
+        <h2>Player Statistics</h2>
+        <p>Longest Win Streak: <span id="winStreak"> 0 </span> </p>
+        <p>Last Match: <span id="recentMatch"> None </span></p>
+
+        <p>Total Rounds: <span id="totalRounds"> 0 </span></p>
+        <p>Total Matches: <span id="totalMatches"> 0 </span></p>
+        <p>Total Wins: <span id="totalWins"> 0 </span></p>
+        <p>Win Rate: <span id="winRate"> 0% </span></p>
+        <p>Total Losses: <span id="totalLosses"> 0 </span></p>
+        <p>Total Ties: <span id="totalTies"> 0 </span></p>
+
+        <h3>Move Usage</h3>
+        <p>Favorite Move: <span id="favoriteMove"> None </span></p>
+        <p>Rock: <span id="rockCount"> 0 </span></p>
+        <p>Paper: <span id="paperCount"> 0 </span></p>
+        <p>Scissors: <span id="scissorsCount"> 0 </span></p>
+        
+        <p>Badge: <span id ="badge">Rookie Player</span></p>
+    </div>
+    <section class="chart-section">
+        <h2>Player Analytics</h2>
+
+        <canvas id="statsChart"></canvas>
+    </section>
+    <section class="birthday-section">
+        <h2> Birthday Highlights </h2>
+        <p>
+            This Rock Paper Scissors game is dedicated to <strong>Ademide Adeoye </strong> with whom I 
+            spent some of the happiest childhood moments playing this game together.
+        </p>
+        <p>
+            From playful arguments over who cheated, 
+            to endless rematches and laughter,
+            these memories will always remain special.
+
+        </p>
+        <p>
+            Happy Birthday and many more of joy,
+            greatness, and beautiful memories.
+        </p>
+    </section>
+<section class="history-section">
+
+    <h2>Match History</h2>
+
+    <table id="historyTable">
+
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Result</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+
+    </table>
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
