@@ -503,6 +503,51 @@ const clearDataBtn = document.getElementById("clearDataBtn");
     {
         image: "photo2.jpg",
         caption: "Happy Birthday Champion"
+    },
+        {
+        image: "IMG-20260522-WA0088.jpg",
+        caption: "Childhood memories together"
+    },
+    {
+        image: "IMG-20260522-WA0087.jpg",
+        caption: "Endless Rock Paper Scissors battles"
+    },
+    {
+        image: "IMG-20260522-WA0086.jpg",
+        caption: "Happy Birthday Champion"
+    },
+        {
+        image: "IMG-20260522-WA0085.jpg",
+        caption: "Childhood memories together"
+    },
+    {
+        image: "IMG-20260522-WA0084.jpg",
+        caption: "Endless Rock Paper Scissors battles"
+    },
+    {
+        image: "IMG-20260522-WA0083.jpg",
+        caption: "Happy Birthday Champion"
+    },
+    {
+            image: "IMG-20260522-WA0082.jpg",
+            caption: "Love You Loud!"
+    },
+    {
+        image: "IMG-20260522-WA0081.jpg",
+        caption: "Ademide Adeoye"
+    },
+        
+    {
+        image: "IMG-20260522-WA0080.jpg",
+        caption: "Happy Birthday Champion"
+    },
+    {
+            image: "IMG-20260522-WA0079.jpg",
+            caption: "Love You Loud!"
+    },
+    {
+        image: "IMG-20260522-WA0078.jpg",
+        caption: "Ademide Adeoye"
     }
 ];
 
