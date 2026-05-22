@@ -530,7 +530,7 @@ prevBtn.addEventListener("click", () => {
     showSlide(currentSlide);
 });
 slideImage.onerror = () => {
-    slideImage.src = "images/fallback.jpg";
+    slideImage.src = "https://drive.google.com/file/d/1iNyhPdSDN8y1u5zI9Al7S7dwU6CDyDxh/view?usp=drive_link";
 };
 setInterval(() => {
     currentSlide++;
