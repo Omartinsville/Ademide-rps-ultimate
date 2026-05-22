@@ -493,15 +493,15 @@ const clearDataBtn = document.getElementById("clearDataBtn");
     // --------------------------
     const slides = [
     {
-        image: "https://drive.google.com/file/d/1VPUhXUorgP_uX9hNAYCmZe0pI4CnCQZS/view?usp=sharing",
+        image: "photo1.jpg",
         caption: "Childhood memories together"
     },
     {
-        image: "https://drive.google.com/file/d/1oWk6DtjVDL1p5clZL7JWsHtMYs_-oN-A/view?usp=drive_link",
+        image: "photo2.jpg",
         caption: "Endless Rock Paper Scissors battles"
     },
     {
-        image: "https://drive.google.com/file/d/1iNyhPdSDN8y1u5zI9Al7S7dwU6CDyDxh/view?usp=drive_link",
+        image: "photo2.jpg",
         caption: "Happy Birthday Champion"
     }
 ];
