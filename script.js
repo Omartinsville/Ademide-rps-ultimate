@@ -493,7 +493,7 @@ const clearDataBtn = document.getElementById("clearDataBtn");
     // --------------------------
     const slides = [
     {
-        image: "https://drive.google.com/file/d/1VPUhXUorgP_uX9hNAYCmZe0pI4CnCQZS/view?usp=drive_link",
+        image: "https://drive.google.com/file/d/1VPUhXUorgP_uX9hNAYCmZe0pI4CnCQZS/view?usp=sharing",
         caption: "Childhood memories together"
     },
     {
